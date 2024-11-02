@@ -58,7 +58,38 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|106420000|116607500|5ff8ff15-60ab-4f02-8c2e-690e91f7d4f7|09c8f999-18f8-4e07-a014-af73194d26d5",
+        "clearance|106620000|116607500|5ff8ff15-60ab-4f02-8c2e-690e91f7d4f7|8b9b0cf4-5b68-4f2b-92cf-5d00ff72049d",
+        "clearance|112020000|116607500|d6ac0229-7ec5-4caa-a2a2-747a8c4f7be8|76c77d3a-c0dd-4add-8ec2-755b98d92365",
+        "clearance|112220000|116607500|d6ac0229-7ec5-4caa-a2a2-747a8c4f7be8|dbdf56b4-82b7-42ed-939b-a8179cb6b2ad",
+        "copper_edge_clearance|105000000|121172500|f79f4c0a-fb8e-424a-9f10-1923d498edb6|06a44d96-017b-4514-8780-f0464b244072",
+        "copper_edge_clearance|113640000|121172500|f79f4c0a-fb8e-424a-9f10-1923d498edb6|fcb75917-2c5b-423f-a7d8-7cfd0be99b5e",
+        "courtyards_overlap|102450001|63400001|5b354621-7266-4f7c-a077-2a56a950860d|30c4beb6-06b9-49d0-9f1f-156f31970435",
+        "hole_clearance|106920000|116592551|c18cfcfe-d632-486f-9e92-56b47bd55073|5ff8ff15-60ab-4f02-8c2e-690e91f7d4f7",
+        "hole_clearance|106924975|116597526|748e6c8e-64ec-44be-a70d-6cc37259a880|5ff8ff15-60ab-4f02-8c2e-690e91f7d4f7",
+        "hole_clearance|111715026|116597525|77661f79-9539-471e-b93e-693d898f5d60|d6ac0229-7ec5-4caa-a2a2-747a8c4f7be8",
+        "hole_clearance|111720000|116592551|a7385ec9-6e6d-46ff-a9da-f8f1ae1cbe85|d6ac0229-7ec5-4caa-a2a2-747a8c4f7be8",
+        "items_not_allowed|104260000|64645000|945ff68e-b325-474d-890f-e403e2f0027f|00000000-0000-0000-0000-000000000000",
+        "items_not_allowed|106800000|64645000|5b354621-7266-4f7c-a077-2a56a950860d|00000000-0000-0000-0000-000000000000",
+        "items_not_allowed|106800000|64645000|cead361e-ffe0-497e-a06f-9fab26c04a5b|00000000-0000-0000-0000-000000000000",
+        "silk_edge_clearance|104750000|122000000|f79f4c0a-fb8e-424a-9f10-1923d498edb6|7b828480-b126-44b7-859a-215c29111519",
+        "silk_edge_clearance|113890000|122000000|f79f4c0a-fb8e-424a-9f10-1923d498edb6|36d6490d-9f5e-41ec-a732-dd9acef1cb09",
+        "silk_edge_clearance|114380000|63250000|f79f4c0a-fb8e-424a-9f10-1923d498edb6|81a1ba6c-df76-4797-8359-e61658e8ce16",
+        "silk_edge_clearance|116285000|122000000|f79f4c0a-fb8e-424a-9f10-1923d498edb6|69993f82-2d07-4c66-9078-22e08f4db123",
+        "silk_edge_clearance|132285000|122000000|f79f4c0a-fb8e-424a-9f10-1923d498edb6|eb25ee6e-f6de-42cd-8d9a-aaf59e24fea2",
+        "silk_edge_clearance|132620000|63250000|f79f4c0a-fb8e-424a-9f10-1923d498edb6|853f1b4b-1a21-476b-8bb2-bc8f2a3dad3a",
+        "silk_overlap|102955000|82870000|91524d4e-b9bf-431b-9bfd-36cca37d0b29|6c6be2b6-26e8-4b74-a8f6-94932e8deee0",
+        "silk_overlap|102970000|80270000|91524d4e-b9bf-431b-9bfd-36cca37d0b29|071e9a9f-c5d4-418d-9bdc-195c965e3978",
+        "silk_overlap|102970000|80270000|91524d4e-b9bf-431b-9bfd-36cca37d0b29|d8a250e3-2656-46c5-ab9a-05402623500a",
+        "silk_overlap|102970000|85275000|2339b1c4-9975-40e8-af9f-0cba12b54476|91524d4e-b9bf-431b-9bfd-36cca37d0b29",
+        "silk_overlap|102980000|90500000|46f32db8-6b81-463e-998e-75c6a75cf03c|2339b1c4-9975-40e8-af9f-0cba12b54476",
+        "silk_overlap|105570000|80270000|91524d4e-b9bf-431b-9bfd-36cca37d0b29|d78d5808-3c1c-4cf9-b99f-9b1577d3e876",
+        "silk_overlap|105570000|80270000|91524d4e-b9bf-431b-9bfd-36cca37d0b29|dd8a61fd-772f-4ea6-9bfc-9a71d34f1c0b",
+        "silk_overlap|108170000|80270000|f43f46bd-21cc-44ec-9db2-639ede2e5e7e|91524d4e-b9bf-431b-9bfd-36cca37d0b29",
+        "silk_overlap|108170000|90500000|46f32db8-6b81-463e-998e-75c6a75cf03c|f43f46bd-21cc-44ec-9db2-639ede2e5e7e",
+        "silk_overlap|108175000|95630000|46f32db8-6b81-463e-998e-75c6a75cf03c|4dd14878-a976-4cfa-bc03-d33f23d6bd0d"
+      ],
       "meta": {
         "version": 2
       },
@@ -130,7 +161,7 @@
         "min_through_hole_diameter": 0.15,
         "min_track_width": 0.16,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.25,
+        "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -231,6 +262,10 @@
         {
           "diameter": 0.4,
           "drill": 0.2
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.3
         },
         {
           "diameter": 0.5,
